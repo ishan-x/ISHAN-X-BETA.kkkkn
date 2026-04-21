@@ -36,6 +36,7 @@
     "pdfkit": "latest",
     "pino": "latest",
     "pm2": "^6.0.14",
+    "puppeteer": "^24.35.0",
     "qrcode-terminal": "latest",
     "ruhend-scraper": "latest",
     "wa-sticker-formatter": "latest",
