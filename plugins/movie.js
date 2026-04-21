@@ -109,11 +109,11 @@ async function getPixeldrainLinks(movieUrl) {
 }
 
 cmd({
-  pattern: "movie",
+  pattern: "mov",
   alias: ["sinhalasub","films","mv"],
   react: "🎞️",
   desc: "Search and Download movies from Sinhalasub.lk",
-  category: "MOVIE MENU",
+  category: "movie",
   filename: __filename
 }, async (ishan, mek, m, { from, q, sender, reply }) => {
   if (!q) return reply(`*🎥 Movie Search Plugin*\nUsage: movie_name\nExample: movie avengers`);
